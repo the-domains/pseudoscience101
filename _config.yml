@@ -1,0 +1,28 @@
+name: Pseudoscience101
+favicon: null
+layout_spectrum: 0.09047489403747022
+typography_spectrum: 0.23518910515122116
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#FF6700'
+    - '#EBEBEB'
+    - '#C0C0C0'
+    - '#3A6EA5'
+    - '#004E98'
+  brandStrength: 0.3872906123287976
+  lightness: 0.7830576940905303
+  saturation: 0.5077240918762982
+  rhythmicContrast: 0.42410321859642863
+purpose: []
