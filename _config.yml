@@ -1,28 +1,67 @@
-name: Pseudoscience101
-favicon: null
-layout_spectrum: 0.09047489403747022
-typography_spectrum: 0.23518910515122116
+name: Pseudoscience 101
+analytics: {}
+purpose:
+  - type: contact
+    url: 'mailto:daniel.brookshier@gmail.com'
+    label: Contact me
+github: true
+description: 'Science is for scientists, pseudoscience is for everyone else'
 cta:
-  domain: null
   bucket: null
   version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+  domain: null
+author: {}
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+content:
+  - id: !<tag:yaml.org,2002:js/undefined> ''
+    type: image
+    html: >-
+      <img
+      src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/7ca2bb9c-4ff2-492d-92f4-998b286e1ecf.jpg">
+    src: >-
+      https://the-grid-user-content.s3-us-west-2.amazonaws.com/7ca2bb9c-4ff2-492d-92f4-998b286e1ecf.jpg
+    metadata:
+      author: []
+      datePublished: null
+      keywords: []
+      '@type': MediaObject
+      publisher:
+        favicon: null
+        url: 'https://the-grid-user-content.s3-us-west-2.amazonaws.com'
+        name: The-grid-user-content
+        domain: the-grid-user-content.s3-us-west-2.amazonaws.com
+      description: ''
+      related: []
+      app_links: []
+      '@context': 'http://schema.org'
+    title: !<tag:yaml.org,2002:js/undefined> ''
+    caption: !<tag:yaml.org,2002:js/undefined> ''
+    text: !<tag:yaml.org,2002:js/undefined> ''
+layout_spectrum: 0.09047489403747022
 color:
+  lightness: 0.7830576940905303
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.3872906123287976
-  lightness: 0.7830576940905303
   saturation: 0.5077240918762982
-  rhythmicContrast: 0.42410321859642863
-purpose: []
+  brandStrength: 0.3872906123287976
+  rhythmicContrast: 0.4241032185964286
+content_rating:
+  adult: false
+typography_spectrum: 0.2351891051512212
+opengraph: {}
+title: Pseudoscience Training for the public
